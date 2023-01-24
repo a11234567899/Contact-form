@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("bg.jpg");
+    size: 100px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.box {
+    height: 650px;
+    width: 790px;
+    background-color: aliceblue;
+    margin-top: 30px;
+}
+
+h1 {
+    color: rgb(239, 239, 239);
+}
+
+.lorem {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(239, 239, 239);
+
+}
+
+.vero p {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.request {
+    margin-left: 60px;
+    padding-top: 40px;
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
+
+input {
+    margin-top: 40px;
+    padding-top: 60px;
+    margin-left: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: aliceblue;
+    font-size: 16px;
+    width: 300px;
+}
+
+.contact-right {
+    height: 600px;
+    width: 750px;
+    margin-top: 30px;
+    background-color: blue;
+    margin-left: 100px;
+
+}
+
+.textbox {
+    margin-left: 60px;
+}
+
+textarea {
+    margin-left: 60px;
+    margin-top: 60px;
+    left: auto;
+    border-radius: 20px;
+    outline: none;
+    color: rgb(69, 69, 69);
+    text-align: auto;
+    overflow: hidden;
+}
+
+button {
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 670px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(15, 15, 105);
+    cursor: pointer;
+}
